@@ -1,0 +1,51 @@
+{
+  "products": [
+    {
+      "id": 2,
+      "name": "mouse",
+      "description": "mouse ultra",
+      "price": 100,
+      "inStock": true
+    },
+    {
+      "id": 3,
+      "name": "keyboard",
+      "description": "keyboard HP",
+      "price": 200,
+      "inStock": false
+    },
+    {
+      "name": "test 3",
+      "description": "testeando",
+      "price": "34",
+      "inStock": true,
+      "id": 6
+    }
+  ],
+  "games": [
+    {
+      "id": 2,
+      "name": "street fither 2",
+      "price": 50,
+      "inStock": true
+    },
+    {
+      "name": "Super Mario",
+      "price": "50",
+      "inStock": true,
+      "id": 4
+    },
+    {
+      "name": "Test",
+      "price": "44",
+      "inStock": false,
+      "id": 6
+    },
+    {
+      "name": "new game",
+      "price": "120",
+      "inStock": true,
+      "id": 7
+    }
+  ]
+}

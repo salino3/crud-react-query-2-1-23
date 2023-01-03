@@ -1,0 +1,106 @@
+body{
+  background-image: linear-gradient(to bottom right, #0000FF, #00FF00);
+  color: white;
+  padding: 2em;
+
+}
+
+form{
+  border: solid;
+  border-radius: 8px;
+  padding: 2em;
+  width: 35em;
+  background-image: linear-gradient(to bottom right, #0000FF 20%, #FFFF00 , #00FF00);
+}
+
+#div{
+    border-radius: 10px;
+    width: 35em;
+
+}
+
+#btn{
+background: linear-gradient(to bottom left, #FFFF00 27%, #00FF00);
+color: blue;
+border: solid 1px;
+}
+
+#btn:active{
+font-size: 80%;
+}
+
+button{
+background: linear-gradient(to bottom right, red 10%, #0000FF);
+color: darkblue;
+border: solid 1px;
+}
+
+button, input{
+  border-radius: 15px 15px;
+}
+
+input{
+  padding-left: 0.5em;
+}
+
+input[type="checkbox"] {
+    width:22px;
+    height:22px;
+}
+
+.h1App{
+    text-align: center;
+    margin-bottom: 2em;
+}
+
+hr{
+  width: 25em;
+  float: left;
+  height: 0.25em;
+
+  background: linear-gradient(to right, #FF0000 5%,  #FF8000);
+  -webkit-background-clip: hr;
+  -webkit-text-fill-color:transparent;
+
+}
+
+h1 {
+.gradient-textbackground-color:#FFFF00;
+background-image:linear-gradient(45deg, #af4261 25%, blue);
+-webkit-background-clip: text;
+moz-background-clip: text;
+-webkit-text-fill-color:transparent;
+/* moz-text-fill-color:transparent; */
+
+}
+
+a{
+  position: relative;
+  float: right;
+  top: 1.5em;
+}
+
+.divPNF{
+  width: 80%;
+  margin: 0 auto;
+  padding-bottom: 65%;
+  background-image: repeating-radial-gradient(red, yellow 10%, green 15%);
+  border-radius: 50%;
+  display: flex;
+justify-content: center;
+position: relative;
+
+}
+
+.divPNF h1{
+font-size: 300%;
+text-align: center;
+position: absolute;
+top: 2em;
+
+}
+
+.divPNF h2:hover{
+   cursor: pointer;
+   color: yellow;
+}
